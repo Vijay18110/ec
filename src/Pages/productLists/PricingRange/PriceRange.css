@@ -1,0 +1,12 @@
+.PriceRange > div > div {
+  background-color: inherit !important;
+}
+.PriceRange > div > .flex-fill {
+  background-color: inherit !important;
+}
+.PriceRange > .content > div :first-child {
+  z-index: 2 !important;
+}
+.PriceRange > .content > div :nth-child(2) {
+  z-index: 0 !important;
+}

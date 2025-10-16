@@ -1,0 +1,65 @@
+/* Gradient full-page background */
+.register-body {
+    background: linear-gradient(135deg, #a8a35a, #3bb97a);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphic card */
+.register-card {
+    max-width: 450px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Modern inputs */
+.form-control-modern {
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.form-control-modern:focus {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* Gradient button */
+.btn-gradient {
+    background: linear-gradient(90deg, #28a745, #20c997);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 0.6rem;
+    transition: 0.3s ease;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Links */
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .register-card {
+        margin: 0 15px;
+        padding: 1.5rem;
+    }
+}

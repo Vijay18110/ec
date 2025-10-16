@@ -1,0 +1,1 @@
+import{y as l}from"./index-CQ0pFaA9.js";const o=e=>["image/jpeg","image/png","application/pdf"].includes(e.type)?!0:(l.error("Only JPG, JPEG, PNG, or PDF files are allowed."),!1),i=e=>["image/jpeg","image/png"].includes(e.type)?!0:(l.error("Only JPG, JPEG,or PNG files are allowed."),!1);export{o as a,i as v};

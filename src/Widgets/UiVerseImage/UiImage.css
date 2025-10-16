@@ -1,0 +1,58 @@
+.custum-file-upload {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cacaca;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+}
+
+.custum-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .text div svg {
+  height: 60px;
+  fill: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload .text {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.custum-file-upload .text span {
+  
+  font-weight: 400;
+  color: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload input {
+  display: none;
+}
+@media screen and (max-width:500px) {
+.custum-file-upload {
+  width: 100px;
+ 
+}
+.custum-file-upload .text div{
+  display: block;
+
+  & span{
+    width: 100%;
+    display: block;
+  }
+}
+}

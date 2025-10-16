@@ -1,0 +1,23 @@
+.class_title_area_between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .class_title_area_between span {
+    display: block;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .class_title_area_between .class_view_btn {
+    float: right;
+    text-decoration: underline;
+    color: #567343;
+    font-size: 20px;
+  }
+.title-left{
+  color: #000 !important;
+}

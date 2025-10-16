@@ -1,0 +1,27 @@
+
+.class_word_box {
+  width: 100%;
+  background: #738762;
+  border-radius: 10px;
+  padding: 26px;
+  float: left;
+}
+
+.class_word_box .class_word_text {
+  float: right;
+  width: 55%;
+  margin-top: 27px;
+}
+
+ .class_word_box .class_word_text p {
+  color: #fff;
+  line-height: 28px;
+  text-align: justify;
+}
+
+ .class_word_box .class_word_text strong {
+  color: #fff;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}

@@ -1,0 +1,117 @@
+.mindful-eating {
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+
+.mindful-eating .mindful-caregory{width:16%; display:inline-block; text-align:center;}
+
+.mindful-eating .mindful-caregory img {
+    width:190px;
+    height:190px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+
+.mindful-eating .mindful-caregory span {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    color: #232323;
+    margin-bottom: 5px;
+}
+
+.mindful-eating .mindful-caregory strong {
+    display: block;
+    font-weight: 600;
+    font-size: 17px;
+    color: #232323;
+}
+
+.shop-grid-sidebar-area{width:100%; display:inline-block; margin-bottom:50px;}
+
+.shop-grid-sidebar-area .title-area-between {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.filter-select-area{
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 0 0 6px 6px;
+    gap: 10px;
+    justify-content: space-between;
+    border-top: 1px solid #ececec;
+    border-bottom: solid 1px #ececec;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.filter-select-area .single-select-filter{
+    width: auto;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+}
+.filter-select-area .single-select-filter:before {
+    content: "";
+    position: absolute;
+    left: 82px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background: #eee;
+}
+
+
+.filter-select-area .single-select-filter strong {
+    font-size: 20px;
+    font-weight: 500;
+    color:#999;
+}
+
+
+.filter-select-area .single-select-filter {
+    width: auto;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 32px 0 6px;
+}
+.filter-select-area .single-select{
+    width: auto;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+}
+.filter-select-area .single-select .nice-select {
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #7a605d;
+    border-radius: 17px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+}
+
+
+.filter-select-area .sort-by{float:right;}
+
+.superhero-product {
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}

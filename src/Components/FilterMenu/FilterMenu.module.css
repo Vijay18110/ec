@@ -1,0 +1,80 @@
+.shopgridsidebararea{width:100%; display:inline-block; margin-bottom:50px;}
+
+.shopgridsidebararea .title-area-between {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.filterselectarea{
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 0 0 6px 6px;
+    gap: 10px;
+    justify-content: space-between;
+    border-top: 1px solid #ececec;
+    border-bottom: solid 1px #ececec;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.filterselectarea .singleselectfilter{
+    width: auto;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+}
+.filterselectarea .singleselectfilter:before {
+    content: "";
+    position: absolute;
+    left: 82px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background: #eee;
+}
+
+
+.filterselectarea .singleselectfilter strong {
+    font-size: 20px;
+    font-weight: 500;
+    color:#999;
+}
+
+
+.filterselectarea .singleselectfilter {
+    width: auto;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 32px 0 6px;
+}
+.filterselectarea .singleselect{
+    width: auto;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+}
+.filterselectarea .singleselect .niceselect {
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #7a605d;
+    border-radius: 17px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+}
+
+
+.filterselectarea .sortby{float:right;}

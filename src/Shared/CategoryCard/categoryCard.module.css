@@ -1,0 +1,23 @@
+.class_caregory_are {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-flex;
+  margin: 0 5px;
+  object-fit: cover;
+}
+.class_caregory_are img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media screen and (max-width: 780px) {
+  .class_caregory_are {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 0 5px;
+    object-fit: cover;
+  }
+}

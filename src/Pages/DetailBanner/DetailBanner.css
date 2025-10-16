@@ -1,0 +1,20 @@
+.privacy-policy {
+    background-image: url(../../assets/Images/privacy-policy.jpg);
+    height: 382px;
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+}
+
+.contact-banner-content {
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 140px 0;
+}
+
+.contact-banner-content .title {
+    color: #fff !important;
+}
+
+.rts-pricavy-policy-area{padding:50px 0;}

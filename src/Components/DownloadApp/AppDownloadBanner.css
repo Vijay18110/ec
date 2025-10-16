@@ -1,0 +1,61 @@
+.app-download-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eceeef;
+  padding: 0.3rem;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.app-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.download-button {
+  background-color: #597545;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #597545;
+}
+
+.store-badges img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.qr-code {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .app-download-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;
+  }
+  .download-button {
+    background-color: #597545;
+    color: white;
+    font-size: 10px;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .app-info .st {
+ font-size: 12px;
+    min-width: 200px;
+  }
+}

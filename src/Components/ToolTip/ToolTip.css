@@ -1,0 +1,85 @@
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: #8a934f;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 102%;
+  left: 40%;
+  transform: translateX(-5%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  white-space: nowrap;
+}
+.tooltip_card {
+  visibility: hidden;
+  background-color: rgb(155, 30, 30);
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+ 
+ 
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  white-space: nowrap;
+}
+.tooltip-text1 {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 6px 10px;
+  position: absolute;
+  text-align: justify;
+  z-index: 1;
+  font-size: 14px;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-40%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  white-space: nowrap;
+}
+.tooltip-text2 {
+  background-color: #ebe881;
+  color: #686868;
+  text-align: center;
+  border-radius: 0px;
+  padding: 6px 10px;
+  text-align: justify;
+  font-size: 14px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 70%;
+  transform: translateX(-10%);
+  transition: opacity 0.2s ease-in-out;
+  white-space: nowrap;
+  visibility: visible;
+  opacity: 1;
+}
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+.plot-find-plotno {
+  background: #649fdd;
+  width: 112%;
+  margin-left: -10px;
+  margin-top: -6px;
+  padding: 3px 6px;
+}

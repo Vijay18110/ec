@@ -1,0 +1,117 @@
+.support-list {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.support-list .status {
+    width: 100%;
+    display: inline-block;
+}
+.support-list .status span {
+    display: inline-block;
+    background: #597544;
+    color: #fff;
+    padding: 10px 26px 28px;
+    font-size: 22px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -24px;
+}
+
+/* .support-list .statusClose span {
+    display: inline-block;
+    background: #754644;
+    color: #fff;
+    padding: 10px 26px 28px;
+    font-size: 22px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -24px;
+} */
+.support-list .status p {
+    float: right;
+    width: 70%;
+    padding-top: 9px;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 30px;
+}
+.support-list .status-box {
+    background: #fff;
+    -moz-box-shadow: 7px 7px 7px #f7eaff;
+    -webkit-box-shadow: 7px 7px 7px #f7eaff;
+    box-shadow: 7px 7px 7px #f7eaff;
+    border-radius: 20px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 2px;
+    position: relative;
+    z-index: 9;
+    margin-top: -9px;
+}
+.support-list .status-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 70%;
+}
+.support-list .status-box ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+.support-list .status-box ul li strong {
+    display: inline-block;
+    margin-right: 10px;
+    color: #4c4c4e;
+    font-weight: bolder;
+}
+.support-list .status-box ul li span {
+    display: inline-block;
+    color: #897991;
+}
+
+.support-list .status-box ul li .link {
+    color: #585cc5 !important;
+    transition: all .1s;
+}
+.support-list .status-box .need-support {
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+@media only screen and (max-width:1024px) {
+.support-list .status p {
+    float: right;
+    width: 63%;
+    padding-top: 9px;
+    font-size: 14px;
+    padding-right: 3px;
+}
+
+.support-list .status span{
+    padding: 10px 16px 14px;
+    font-size: 15px;
+}
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .support-list .status p {
+    width: 57%;
+    padding-top: 9px;
+    font-size: 15px;
+    padding-right: 0;
+}
+
+.support-list .status span {
+    padding: 10px 26px 11px;
+    font-size: 14px;
+}
+.support-list .status-box{padding:11px; display: flex;justify-content: space-between;align-items: center;}
+.support-list .status-box img{height:70px;}
+
+
+}

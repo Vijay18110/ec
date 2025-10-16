@@ -1,0 +1,55 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
+/* 🧃 Container Styling */
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* 🎉 Title Styling */
+.popup-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a202c; /* dark gray */
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+/* ✨ Gradient Subtitle */
+.highlight-title {
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: bounce .5s ease;
+}
+
+/* ✅ Product Info Text */
+.popup-description {
+  font-size: 14px;
+  color: #2f2f2f;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* 🔔 Bell shake animation */
+@keyframes bell-shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-15deg); }
+  60% { transform: rotate(10deg); }
+  80% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-bell {
+  animation: bell-shake 0.5s ease;
+  width: 400px;
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+}

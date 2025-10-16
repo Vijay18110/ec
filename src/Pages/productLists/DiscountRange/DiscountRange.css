@@ -1,0 +1,12 @@
+.dicountRange > div > div {
+  background-color: inherit !important;
+}
+.dicountRange > div > .flex-fill {
+  background-color: inherit !important;
+}
+.dicountRange > .content > div :first-child {
+  z-index: 2 !important;
+}
+.dicountRange > .content > div :nth-child(2) {
+  z-index: 0 !important;
+}

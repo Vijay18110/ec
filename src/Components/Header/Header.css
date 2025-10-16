@@ -1,0 +1,25 @@
+.header .icon-btn {
+  cursor: pointer;
+  color: var(--bs-dark);
+  transition: 0.3s ease;
+}
+
+.header .icon-btn:hover {
+  color: var(--bs-primary);
+}
+
+.user-menu {
+  min-width: 160px;
+  z-index: 999;
+}
+
+.nav-link.active {
+  color: var(--bs-primary) !important;
+  border-bottom: 2px solid var(--bs-primary);
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    padding: 10px 0;
+  }
+}

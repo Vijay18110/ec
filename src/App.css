@@ -1,0 +1,18 @@
+.modern-modal .modal-content {
+    border-radius: 1.2rem !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #0056d2);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056d2, #003c99);
+}
+
+.border-primary {
+    box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+}

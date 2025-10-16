@@ -1,0 +1,21 @@
+.congrats-img {
+  width: 300px;
+  height: auto;
+}
+
+@media (max-width:767px) {
+.register {
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+  .congrats-card {
+    padding: 1.25rem !important;
+  }
+
+  .congrats-img {
+    width: 90px;
+  }
+}

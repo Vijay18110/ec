@@ -1,0 +1,18 @@
+.class_exclusive_img {
+  margin: 0 10px;
+  overflow: hidden;
+  width: 23%;
+  display: inline-block;
+}
+
+.class_exclusive_img img {
+  width: 100%;
+  border-radius: 10px;
+  width: 100%;
+  transition: all 0.3s;
+  transform: scale(1.01);
+}
+
+.class_exclusive_img:hover img {
+  transform: scale(1.1);
+}

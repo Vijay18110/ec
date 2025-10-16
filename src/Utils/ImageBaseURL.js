@@ -1,0 +1,1 @@
+export const imageBaseURL =`https://api.ravorganics.com/api/ImageMengement`

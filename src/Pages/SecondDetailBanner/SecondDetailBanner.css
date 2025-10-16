@@ -1,0 +1,27 @@
+.about-banner-area-bg {
+    background-image: url(../../assets/Images/contact-banner.jpg);
+    height: 582px;
+    display: flex;
+    align-items: center;
+    background-size:cover;
+}
+
+.inner-content-about-area {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.inner-content-about-area .title {
+    color: #fff !important;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.inner-content-about-area p.disc {
+    font-size: 16px;
+    color: #fff;
+    max-width: 85%;
+    margin: auto;
+}
