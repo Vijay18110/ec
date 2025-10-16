@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import useApiRequest from "../../Hooks/apiReq";
 import { useNavigate } from "react-router-dom";
 import SpinnerLoader from "../SpinnerLoader";
-import './login.css'
+import './Login.css'
 const LoginPage = () => {
   const { loading, sendApiRequest } = useApiRequest();
   const navigate = useNavigate();
